@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(187, 215, 238);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+
+}
+.container{
+    background-color: rgb(159, 198, 243);
+    padding:30px 40 px;
+    border-radius:5px;
+    text-align:center;
+    box-shadow:0 4px 0px rgb(114, 109, 109);
+
+}
+label{
+    display:block;
+    margin-bottom:5px;
+    color: rgb(25, 26, 26);
+}
+.input-group{
+    margin-bottom:10px;
+}
+input[type="text"]{
+    width:calc(100%-20px);
+    border: 1px solid #ccc;
+    border-radius:15px;
+    padding:3px;
+}
+h1{
+    color:#333;
+    margin-bottom: 20px;
+}
